@@ -1,0 +1,61 @@
+
+
+.contenaire{
+    display: flex;
+    justify-content: center;
+}
+.formulaire{
+    display: flex;
+    justify-content: center;
+    background-color: cornsilk;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 100px;
+}
+
+.left{
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+    font-size: 20px;
+    color: #fff;
+    background-color: green;
+    border: 1px;
+}
+
+.right{
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #fff;
+    border: 1px; 
+}
+
+.green input{
+    border: 3px solid green;
+}
+.red input{
+    border: 3px solid red;
+}
+
+.w3-light-grey{
+    width: 35%;
+    position: relative;
+    background-color: #ccc;
+    margin-top: 25px;
+    left: 40px;
+}
+.w3-grey{
+    height: 5px;
+    width: 200px;
+    background-color: green;
+}
+
+.progress{
+    display: flex;
+}
